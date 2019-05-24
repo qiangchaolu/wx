@@ -1,0 +1,15 @@
+/* pages/shuoming/shuoming.wxss */
+shuoming{
+  background:rgb(248, 246, 246);
+  height:1150rpx
+}
+.xin{
+  width: 120rpx;
+  height: 120rpx;
+  margin:40rpx 80rpx 
+}
+.fangfa>view{
+font-size:33rpx;
+margin: 30rpx 10rpx;
+
+}

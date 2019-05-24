@@ -1,0 +1,51 @@
+/**index.wxss**/
+#index{
+  background:rgb(248, 246, 246);
+  padding-top:30rpx;
+  height:1150rpx
+}
+.userinfo {
+  width: 350rpx;
+  top:60rpx;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  margin-left: -175rpx;
+}
+.container{
+  padding: 0;
+  height: 300rpx;
+  background: url("http://127.0.0.1:3000/img/eventDay/touxiangbj.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin:0rpx 30rpx 70rpx 30rpx;
+  border-radius: 15rpx 
+}
+.userinfo-avatar {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 10rpx 0;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size:45rpx
+}
+.shuoming>image{
+  width:60rpx;
+  height:80rpx;
+  vertical-align: middle;
+  margin: 20rpx 40rpx;
+}
+.jiantou{
+  float: right
+}
+.shuoming{
+  font-size:40rpx;
+  margin: 20rpx 30rpx;
+  background:#fff;
+  border-radius: 15rpx
+}
+

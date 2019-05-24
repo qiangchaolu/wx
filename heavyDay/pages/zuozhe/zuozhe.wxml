@@ -1,0 +1,15 @@
+<!--pages/zuozhe/zuozhe.wxml-->
+<view style="margin:30rpx;padding:60rpx 30rpx;border: 1rpx solid #eee;height:1200rpx;width:640rpx">
+  <view style="text-align:center"><h3>感谢你的使用</h3>
+     <view style='margin:30rpx;font-size:35rpx'>如果你觉得还不错并且也富有余钱的话,可以考虑一下对开发者进行一些赞赏哦!点击下方的赞赏码,长按识别小程序码就可以-感谢你的支持
+     </view>
+     <view style='margin:30rpx;font-size:35rpx'>但是,无论你是否赞赏都没有关系,爱情纪念日也一直会为你服务,祝你爱情美满,百年好合!
+     </view>
+  </view>
+  <view style="width:500rpx;height:500rpx;border:1rpx solid #eee;margin:130rpx 65rpx">
+      <image style="margin:120rpx 120rpx 20rpx 180rpx;width:130rpx;height:130rpx;" src='http://127.0.0.1:3000/img/eventDay/ewm.png'></image>
+      <view style="text-align:center;font-size:35rpx">
+        "谢谢大家的支持~"
+      </view>
+  </view>
+</view>

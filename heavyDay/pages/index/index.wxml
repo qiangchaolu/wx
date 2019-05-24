@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view id="index">
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>  
+</view>
+<view class="shuoming" bindtap='shuoming'>
+  <image src="http://127.0.0.1:3000/img/eventDay/shuoming.png"></image>使用说明
+  <image src="http://127.0.0.1:3000/img/eventDay/jiantou.png" class="jiantou"></image>
+</view>
+<view class="shuoming" bindtap='zuozhe'>
+  <image src="http://127.0.0.1:3000/img/eventDay/zuozhe.png"></image>支持作者
+  <image src="http://127.0.0.1:3000/img/eventDay/jiantou.png" class="jiantou"></image>
+</view>
+<view class="shuoming" bindtap='fankui'>
+  <image src="http://127.0.0.1:3000/img/eventDay/yijian.png"></image>意见反馈
+  <image src="http://127.0.0.1:3000/img/eventDay/jiantou.png" class="jiantou"></image>
+</view>
+
+</view>

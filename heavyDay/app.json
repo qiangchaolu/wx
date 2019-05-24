@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/eventDay/eventDay",
+    "pages/add/add",
+    "pages/eventDetail/eventDetail",
+    "pages/index/index",
+    "pages/zuozhe/zuozhe",
+    "pages/fankui/fankui",
+    "pages/shuoming/shuoming",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff8082",
+    "navigationBarTitleText": "纪念日",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/eventDay/eventDay",
+        "text": "纪念日",
+        "iconPath": "pages/img/tabs/like.png",
+        "selectedIconPath": "pages/img/tabs/like_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "pages/img/tabs/mine.png",
+        "selectedIconPath": "pages/img/tabs/mine_active.png"
+      }
+    ]
+  }
+}

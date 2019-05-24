@@ -1,0 +1,15 @@
+<!--pages/eventDay/eventDay.wxml-->
+<view class="jia" bindtap='uploadImage'>
+  <image src='{{img_url}}'></image>
+  <span>点击添加图片</span>
+</view>
+<view style='width:100%;height:15rpx;background:#ccc'></view>
+<view class="jz">
+  <image style='width:150rpx;height:150rpx;position:fixed;top:80%;right:10%' src='http://127.0.0.1:3000/img/eventDay/xinjian.png' bindtap='xinjian'></image>
+  <view class='ul'>
+    <view class='li' wx:for='{{list}}' wx:key='index' data-pid='{{item.id}}' bindtap='detail_btn'>
+      <text class='t1'>{{item.div_1}}</text>
+      <text class='t2'>{{item.div_2}}</text>
+    </view>
+  </view>   
+</view>

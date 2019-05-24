@@ -1,0 +1,22 @@
+<!--pages/eventDetail/eventDetail.wxml-->
+<view class='detail'>
+  <image src='http://127.0.0.1:3000/img/eventDay/dangao.png'></image>
+  <view class='xiugai'>
+    <view style='margin-top:40rpx;'>
+      <text>修改名称:</text><input placeholder='请输入修改后的内容' style='border:1px solid #ccc;width:60%' value='{{list[0].div_1}}' bindinput='formName'/>
+    </view>
+    <view style='margin-top:40rpx;'>
+      <picker mode='date'
+              value='{{selectedProduceDate}}'
+              start='{{startProduceDate}}'
+              end='{{endProduceDate}}'
+              field='day'
+              bindchange='dateChange'>
+        <view style='margin-left:50rpx;'><i style='margin-right:20rpx'>选择日期:</i>{{selectedProduceDate}}</view>
+      </picker>
+    </view>
+
+    <button style='display:block;width:400rpx;height:100rpx;background:#e84443;text-align:center;border-radius:100rpx;margin:auto;margin-top:40rpx;color:#fff;' bindtap='baocun'>保存</button>
+    <button style='display:block;width:400rpx;height:100rpx;background:#e84443;text-align:center;border-radius:100rpx;margin:auto;margin-top:40rpx;color:#fff;' bindtap='shanchu'>删除</button>
+  </view>
+</view>
